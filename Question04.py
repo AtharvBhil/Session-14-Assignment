@@ -1,0 +1,15 @@
+import numpy as np
+# array from 1 to 24
+arr = np.arange(1, 25)
+# Reshape into (4, 6)
+a = arr.reshape(4, 6)
+# reshape into (3,8)
+b = arr.reshape(3, 8)
+# reshape into (2,3,4) 
+c = arr.reshape(2, 3, 4)
+print("Shape:", a.shape)
+print(a)
+print("\nShape:", b.shape)
+print(b)
+print("\nShape:", c.shape)
+print(c)
